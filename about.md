@@ -9,15 +9,16 @@ nav_order: 110
 
 _By [Sina Keshvadi](https://keshvadi.github.io)_
 
-This is the workbook for **_The Shell_** workshop at [Thompson Rivers University](https://tru.ca/).
+This is the workbook for **_The Missing Software Engineering Course_** workshop.
 
 ## Corrections
 
-As of the Winter 2024 semester, this workbook is still being actively maintained and updated. Please contact [skeshvadi@tru.ca](mailto:skeshvadi@tru.ca) for information regarding corrections.
+As of the Winter 2024 semester, this workbook is still being actively maintained and updated. 
+<!-- Please contact [skeshvadi@tru.ca](mailto:skeshvadi@tru.ca) for information regarding corrections. -->
 
 ## Source and Changelog
 
-The source for the workbook and a log of all changes is [available on Github](https://github.com/Keshvadi/linux).
+The source for the workbook and a log of all changes is [available on Github](https://github.com/Keshvadi/themissingseng).
 
 ## License
 
