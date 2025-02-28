@@ -5,9 +5,9 @@ premalink: /about/
 nav_order: 110
 ---
 
-# The Shell
+# The Missing SENG
 
-_By [Sina Keshvadi](https://keshvadi.github.io)_
+<!-- _By [Sina Keshvadi](https://keshvadi.github.io)_ -->
 
 This is the workbook for **_The Missing Software Engineering Course_** workshop.
 
