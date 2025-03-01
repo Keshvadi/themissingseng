@@ -158,4 +158,4 @@ Once Git is installed, you are gonna want to configure git properly...
 
    Shows who made what changes and when
 
-**_Note:_** you can visit the GitHub to see how to work with Remote repositories.
+**_Note:_** you can visit the Git to see how to work with Remote repositories.

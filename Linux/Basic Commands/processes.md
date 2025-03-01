@@ -159,7 +159,7 @@ Processes are running instances of programs on your system. Understanding how to
   - **F1,h,?:** help.
   - **F2, S:** Setup options.
   - **F3, /**: Search processes.
-  - \*\*F4, \*\*: Filter Processes
+  - **F4,** : Filter Processes
   - **F5, t:** Tree view.
   - **F6, >:** Sort processes.
   - **F7, ]:** Increase priority.

@@ -233,8 +233,6 @@ This section covers essential Docker commands for managing images, containers, a
 
 ### Copying Files
 
-<<<<<<< HEAD
-
 - **Copy a file from container to local host**
   ```bash
   docker cp my_container:usr/src/project/file .
@@ -243,7 +241,6 @@ This section covers essential Docker commands for managing images, containers, a
   ```bash
   docker cp file my_container:/usr/src/project
   ```
-  =======
 
 * **`docker cp`**
 
@@ -256,5 +253,3 @@ This section covers essential Docker commands for managing images, containers, a
     ```
 
 ---
-
-> > > > > > > 5eb2d5e (updated content)

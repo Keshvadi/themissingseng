@@ -21,22 +21,19 @@ Understanding Git terminology is crucial for effectively using Git. Here's a bre
 
 ### Remote Repositories and Collaboration
 
-<<<<<<< HEAD
-
 ### Rebase
 
 - Rebasing in Git takes _your_ changes and reapplies them on top of the latest version of the branch, like stacking fresh edits on a new copy. This keeps the history clean instead of mixing old and new changes together.
 
 ### Remote Repository
 
-- # A version of your repository stored on another server, like GitHub or GitLab. This allows you to share your work and collaborate. (The GitHub Section outlines this further)
+- A version of your repository stored on another server, like GitHub or GitLab. This allows you to share your work and collaborate. (The GitHub Section outlines this further)
 
 * **Remote Repository:** A version of your repository hosted on a server (like GitHub, GitLab, Bitbucket, or a private server). Remotes allow you to collaborate with others and back up your work.
 * **Clone:** Creating a _local_ copy of a _remote_ repository. This downloads the entire project history to your computer.
 * **Push:** Uploading your local commits to a remote repository. This shares your changes with others.
 * **Pull:** Downloading changes from a remote repository to your local repository _and_ merging them into your current branch. This keeps your local copy up-to-date with the remote.
 * **Fetch:** Downloading changes from a remote repository to your local repository, _without_ merging them into your current branch. This allows you to see what's changed on the remote before integrating those changes.
-  > > > > > > > 5eb2d5e (updated content)
 
 ### Other Important Terms
 
