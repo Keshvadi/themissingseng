@@ -1,11 +1,7 @@
 ---
 title: GitHub
 parent: Git & Version Control
-<<<<<<< HEAD
 nav_order: 64
-=======
-nav_order: 62
->>>>>>> 5eb2d5e (updated content)
 layout: default
 ---
 
@@ -46,14 +42,11 @@ GitHub is a web-based platform that provides hosting for Git repositories. It's 
 
     - If you're starting a _new_ project, it's often easier to _clone_ the GitHub repository to your local machine (see the "Cloning" section below).
 
-# <<<<<<< HEAD
-
     *Explanation:*
 
     *   `git remote add origin ...`:  Adds a "remote" named `origin` to your local repository.  `origin` is a conventional name for the primary remote repository (you can have multiple remotes).
     *   `https://github.com/your_username/your_repository_name.git`:  This is the URL of your GitHub repository (you can find this on the repository's page on GitHub).
 
-> > > > > > > 5eb2d5e (updated content)
 
 ---
 
@@ -69,28 +62,25 @@ Cloning creates a local copy of a remote repository (on GitHub or elsewhere).
     ```
     You will be prompted for your GitHub username and password (or personal access token) when you push changes.
 
-<<<<<<< HEAD
 
 1.  **Set up Git with your GitHub Account**
     ```bash
     git config --global user.name "Your Name"
     git config --global user.email "youremail@email.com"
     ```
-2.  # **Generate SSH key (Recommended for security)**
+2.  **Generate SSH key (Recommended for security)**
 
-        *   **SSH:** (Recommended)
-            ```bash
-            git clone git@github.com:user/repo.git
-            ```
-            This requires setting up an SSH key (see below). SSH is more secure and convenient than HTTPS for frequent interactions.
+      **SSH:** (Recommended)
+      ```bash
+      git clone git@github.com:user/repo.git
+      ```
+      This requires setting up an SSH key (see below). SSH is more secure and convenient than HTTPS for frequent interactions.
 
-    > > > > > > > 5eb2d5e (updated content)
-
-        *   **GitHub CLI:**
-            ```bash
-            gh repo clone user/repo
-            ```
-             Requires installing the GitHub CLI ([https://cli.github.com/](https://cli.github.com/)). This is a convenient way to interact with GitHub from the command line.
+      **GitHub CLI:**
+      ```bash
+      gh repo clone user/repo
+      ```
+      Requires installing the GitHub CLI ([https://cli.github.com/](https://cli.github.com/)). This is a convenient way to interact with GitHub from the command line.
 
 - **Recommendation:** Set up an SSH key for GitHub. This avoids repeatedly entering your username and password.
 
@@ -100,50 +90,38 @@ Cloning creates a local copy of a remote repository (on GitHub or elsewhere).
 
 To interact with GitHub repositories (push, pull) without repeatedly entering your credentials, you need to configure your local Git installation.
 
-# <<<<<<< HEAD 3. **Check Credentials to see if they are correct**
+3. **Check Credentials to see if they are correct**
 
 1.  **Set Your Git Username and Email:**
 
-    > > > > > > > 5eb2d5e (updated content)
-
-        ```bash
+      ```bash
         git config --global user.name "Your Name"
         git config --global user.email "[email address removed]"
-        ```
-
-<<<<<<< HEAD
-
-# check remote repository
-
-git remote -v
-
-````
+      ```
 
 ---
 
 ## Linking your local repo to GitHub
 This section will guide you in the case that you have a local repository (project on your computer) and you want to save it to a remote repository (save it to the cloud).
 1. **Initialize or navigate to your repo**
-```bash
-# Find your repository
-cd /your_repo_path
+    
+    ```bash
+    # Find your repository
+    cd /your_repo_path
 
-# or initialize a new repo
-git init
-````
-
+    # or initialize a new repo
+    git init
+    ```
 2. **Add the remote repository**
-
-- Go to your github and create a new repo, click the green code button and copy the link...
-  - **using HTTPS:**
-  ```bash
-  git remote add origin https://github.com/your-username/repository-name.git
-  ```
-  - **using SSH:**
-  ```bash
-  git remote add origin git@github.com:your-username/repository-name.git
-  ```
-
+  - Go to your github and create a new repo, click the green code button and copy the link...
+      - **using HTTPS:**
+      ```bash
+      git remote add origin https://github.com/your-username/repository-name.git
+      ```
+      - **using SSH:**
+      ```bash
+      git remote add origin git@github.com:your-username/repository-name.git
+      ```
 3. **Verify the remote link**
 
    ```bash
@@ -274,7 +252,7 @@ Verify the removal with
 git remote -v
 ```
 
-=======
+
 _Important:_ Use the email address associated with your GitHub account. The `--global` flag sets these configurations for all your Git repositories. You can set them per-repository by omitting `--global`.
 
 2.  **Generate an SSH Key (Recommended for Security and Convenience):**
@@ -327,6 +305,3 @@ _Important:_ Use the email address associated with your GitHub account. The `--g
     Hi username! You've successfully authenticated, but GitHub does not provide shell access.
     ```
 
----
-
-> > > > > > > 5eb2d5e (updated content)

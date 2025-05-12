@@ -1,7 +1,7 @@
 ---
 title: Getting Started in Git
 parent: Git & Version Control
-nav_order: 63
+nav_order: 61
 layout: default
 ---
 
@@ -25,7 +25,6 @@ You should see an output like:
 git version 2.43.0
 ```
 
-If not then you can install it with
 
 ### **Windows**
 

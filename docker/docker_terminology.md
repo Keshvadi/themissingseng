@@ -1,13 +1,25 @@
 ---
 title: Docker Terminology
 parent: Docker
-nav_order: 51
+nav_order: 53
 layout: default
 ---
 
 ## Docker Terminology
 
 This section introduces the core concepts and terminology used in Docker. Understanding these terms is essential for working with Docker effectively.
+
+---
+
+## Most important Idea
+**Images:**
+  - Images are a snapshot of an environment detailing everything your program needs. (Code, libraries, runtime, and settings. It’s read-only and portable.) You can think of it as a LEGO kit, the instruction booklet and all the pieces packed together in a sealed box, ready to be built.
+
+**Containers:**
+  - Containers are the actual running instances of these images, live executable environments (You can have multiple containers running from the same image). This is like opening the LEGO kit and building it. You can build many identical LEGO sets from the same kit.
+
+**DockerFile:**
+  - You can think of the dockerfile as the instuctions to build the images. In our LEGO example, it's like writing the step-by-step guide for how to assemble the kit. (What steps to take, what peices to use etc.)
 
 ---
 

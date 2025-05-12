@@ -25,6 +25,7 @@ layout: default
 - [Writing a Dockerfile](https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/)
 - [Install Docker Engine](https://docs.docker.com/engine/install/)
 - [DockerHub Quickstart](https://docs.docker.com/docker-hub/quickstart/) - Learn how to use registries and pull Docker containers from the community.
+- [10 Docker Projects](https://www.datacamp.com/blog/docker-projects)
 
 ---
 

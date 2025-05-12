@@ -1,5 +1,5 @@
 ---
-title: Git Basics
+title: Git Basic Commands
 parent: Git & Version Control
 nav_order: 65
 layout: default

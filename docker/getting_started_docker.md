@@ -1,13 +1,13 @@
 ---
 title: Getting Started with Docker
 parent: Docker
-nav_order: 52
+nav_order: 51
 layout: default
 ---
 
 ## Installation
 
-This section guides you through installing Docker on various operating systems. We'll focus on Ubuntu Linux, but provide links for Windows and macOS installations.
+This section guides you through installing Docker on various operating systems. We'll focus on Ubuntu Linux, but here are links for Windows and macOS installations.
 
 - [Windows Installation](https://docs.docker.com/desktop/install/windows-install/)
 - [macOS Installation](https://docs.docker.com/desktop/install/mac-install/)
@@ -67,12 +67,19 @@ These instructions are specifically for Ubuntu. For other Linux distributions, r
 3.  **Verify Installation:**
 
     ```bash
+    docker --version
+
+    # This is the first program people run to ensure that docker is properly installed
     sudo docker run hello-world
     ```
 
     _Sample Output (truncated):_
 
     ```
+    Docker version ##.#.#, build ######
+    
+    ...
+
     Unable to find image 'hello-world:latest' locally
     latest: Pulling from library/hello-world
     ...

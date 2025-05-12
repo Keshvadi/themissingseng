@@ -1,7 +1,7 @@
 ---
 title: Git Terminology
 parent: Git & Version Control
-nav_order: 61
+nav_order: 63
 layout: default
 ---
 
